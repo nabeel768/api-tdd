@@ -1,0 +1,22 @@
+# Never commit node modues
+node_modules
+
+# pnpm stuff
+.pnpm-debug.log
+
+# We are using pnpm - ignore other lock files
+package-lock.json
+yarn.lock
+
+# Mac OS stuff
+.DS_Store
+
+# coverage reports
+coverage
+
+# test reports
+test-report
+test-results.json
+
+# vs code settings
+.vscode/settings.json
